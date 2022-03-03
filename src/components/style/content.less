@@ -1,0 +1,61 @@
+.root {
+    display: flex;
+    flex-direction: column;
+
+
+    .header {
+        width: 300px;
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 200px;
+
+
+        .input-item{
+            width: 250px;
+            padding: 12px;
+            border-radius: 5px;
+            border: 2px solid rgb(216, 219, 216);
+        }
+        .add-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+            border: 1px solid rgb(178, 181, 185);
+            border-radius: 50%;
+            width: 50px;
+            color: rgb(70, 71, 71);
+            background-color: rgb(184, 194, 209);
+            cursor: pointer;
+            &:active{
+                background: rgb(204, 206, 211);
+            }
+        }
+    }
+
+    .list-wrap{
+        width: 300px;
+
+        .title{
+            display: inline-block;
+            padding: 5px;
+            color: rgb(74, 79, 83);
+        }
+
+        .list-item{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            padding: 8px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(12, 12, 12, 0.2) 0px 2px 1px -1px;
+        }
+        .index-test{
+            position: relative;
+            top: -40px;
+            left: 320px;
+        }
+    }
+}
+  
